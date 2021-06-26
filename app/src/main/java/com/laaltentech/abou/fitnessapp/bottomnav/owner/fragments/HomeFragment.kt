@@ -50,6 +50,11 @@ class HomeFragment : Fragment(), Injectable {
             binding.textView.text = "Welcome $firstName!!"
         }
 
+        binding.dietSuggestions.setOnClickListener {
+            val action = HomeFragmentDirections.actionNavigationHomeToFragmentDietDetails()
+            findNavController().navigate(action)
+        }
+
         binding.testClick.setOnClickListener {
             val action = HomeFragmentDirections.actionNavigationHomeToFragmentQuizLayout()
             findNavController().navigate(action)

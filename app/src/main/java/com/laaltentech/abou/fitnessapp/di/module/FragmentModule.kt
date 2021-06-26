@@ -62,4 +62,10 @@ abstract class FragmentModule {
 
     @ContributesAndroidInjector
     abstract fun contributeFragmentQuizLayoutBinding(): FragmentQuizLayout
+
+    @ContributesAndroidInjector
+    abstract fun contributeFragmentQuizResultBinding(): FragmentQuizResult
+
+    @ContributesAndroidInjector
+    abstract fun contributeFragmentDietDetailsBinding(): FragmentDietDetails
 }

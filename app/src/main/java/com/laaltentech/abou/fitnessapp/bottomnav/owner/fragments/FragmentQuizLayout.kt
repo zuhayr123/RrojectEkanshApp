@@ -128,10 +128,10 @@ class FragmentQuizLayout : Fragment() {
 
         })
 
-//        binding.done.setOnClickListener {
-//            val action = AdapterQuizLayoutDynDirections.actionAdapterQuizLayoutDynToFragmentQuizResult()
-//            findNavController().navigate(action)
-//        }
+        binding.done.setOnClickListener {
+            val action = FragmentQuizLayoutDirections.actionFragmentQuizLayoutToFragmentQuizResult()
+            findNavController().navigate(action)
+        }
         super.onActivityCreated(savedInstanceState)
     }
 

@@ -37,6 +37,9 @@
         <action
             android:id="@+id/action_navigation_home_to_fragmentQuizLayout"
             app:destination="@id/fragmentQuizLayout" />
+        <action
+            android:id="@+id/action_navigation_home_to_fragmentDietDetails"
+            app:destination="@id/fragmentDietDetails" />
     </fragment>
     <fragment
         android:id="@+id/navigation_meditate"
@@ -93,5 +96,17 @@
     <fragment
         android:id="@+id/fragmentQuizLayout"
         android:name="com.laaltentech.abou.fitnessapp.bottomnav.owner.fragments.FragmentQuizLayout"
-        android:label="FragmentQuizLayout" />
+        android:label="FragmentQuizLayout" >
+        <action
+            android:id="@+id/action_fragmentQuizLayout_to_fragmentQuizResult"
+            app:destination="@id/fragmentQuizResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentQuizResult"
+        android:name="com.laaltentech.abou.fitnessapp.bottomnav.owner.fragments.FragmentQuizResult"
+        android:label="FragmentQuizResult" />
+    <fragment
+        android:id="@+id/fragmentDietDetails"
+        android:name="com.laaltentech.abou.fitnessapp.bottomnav.owner.fragments.FragmentDietDetails"
+        android:label="FragmentDietDetails" />
 </navigation>
