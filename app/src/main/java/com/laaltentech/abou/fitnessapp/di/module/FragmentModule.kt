@@ -59,4 +59,7 @@ abstract class FragmentModule {
 
     @ContributesAndroidInjector
     abstract fun contributeFragmentFlashLayoutBinding(): FragmentSplashScreen
+
+    @ContributesAndroidInjector
+    abstract fun contributeFragmentQuizLayoutBinding(): FragmentQuizLayout
 }

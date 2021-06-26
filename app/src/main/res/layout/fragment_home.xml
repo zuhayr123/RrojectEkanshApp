@@ -153,6 +153,63 @@
                             android:layout_height="120dp"
                             android:clickable="true"
                             android:focusable="true"
+                            android:id="@+id/test_click"
+                            android:layout_margin="8dp">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.airbnb.lottie.LottieAnimationView
+                                    android:id="@+id/lottieAnimationView"
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:background="@drawable/rounded_corners"
+                                    android:scaleType="centerCrop"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:lottie_autoPlay="true"
+                                    app:lottie_fileName="meditation_small.json"
+                                    app:lottie_loop="true" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Take the Test"
+                                    android:textColor="@color/colorAccentDark"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
+                                    app:layout_constraintTop_toTopOf="@+id/lottieAnimationView" />
+
+                                <TextView
+                                    android:id="@+id/textView13"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:text="Take the test to know your body type"
+                                    android:textColor="@color/colorAccent"
+                                    app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
+                                    app:layout_constraintTop_toTopOf="parent" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:clickable="true"
+                            android:focusable="true"
                             android:id="@+id/glutes_click"
                             android:layout_margin="8dp">
 

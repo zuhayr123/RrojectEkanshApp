@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_navigation_home_to_fragmentOthersWorkout"
             app:destination="@id/fragmentOthersWorkout" />
+        <action
+            android:id="@+id/action_navigation_home_to_fragmentQuizLayout"
+            app:destination="@id/fragmentQuizLayout" />
     </fragment>
     <fragment
         android:id="@+id/navigation_meditate"
@@ -87,4 +90,8 @@
         android:id="@+id/fragmentSubscribeCheck"
         android:name="com.laaltentech.abou.fitnessapp.bottomnav.owner.fragments.FragmentSubscribeCheck"
         android:label="FragmentSubscribeCheck" />
+    <fragment
+        android:id="@+id/fragmentQuizLayout"
+        android:name="com.laaltentech.abou.fitnessapp.bottomnav.owner.fragments.FragmentQuizLayout"
+        android:label="FragmentQuizLayout" />
 </navigation>

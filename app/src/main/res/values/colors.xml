@@ -9,6 +9,7 @@
     <color name="colorPrimaryDark">#F47D31</color>
     <color name="colorAccent">#5A6175</color>
     <color name="colorAccentDark">#4B5161</color>
+    <color name="colorExtraPrimaryDark">#ab5822</color>
 
     <color name="bg_color_for_welcome_slide_one">#F4B242</color>
     <color name="bg_color_for_welcome_slide_two">#17BC7E</color>
