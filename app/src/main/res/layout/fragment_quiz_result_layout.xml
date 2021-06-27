@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="8dp"
-                    android:text="Prakriti is an individual’s unique biological constitution composed of the three Doshas."
+                    android:text="A vata individual is excited,alert and imaginative. They have dry skin and hair."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/view3"
                     app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -81,7 +81,7 @@
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="24dp"
-                    android:text="The combination of these Doshas are reflected in the characteristics of a person including  immunity,hair and skin type,physical strength,mental makeup,sleep,personality traits etc. Each constitution has an inborn approach in managing their health and certain energies dominate inside the body more than the others. You can be a –  "
+                    android:text="A vata individual is excited,alert and imaginative. They have dry skin and hair ,their light and thin bodies make them active and they suffer from irregularity in life,be it with food habits or daily routine. "
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -91,7 +91,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Vata person,Pitta person,Kapha person or a combination of Vata-Pitta person,Pitta-Kapha person,Vata-Kapha person,Vata-Pitta-Kapha person."
+                    android:text="Vata consists mostly of the two elements air and space (also known as ether) and is generally described as cold, light, dry, rough, flowing, and spacious. Autumn represents vata for its cool, crisp days."
                     app:layout_constraintEnd_toEndOf="@+id/textView20"
                     app:layout_constraintStart_toStartOf="@+id/textView20"
                     app:layout_constraintTop_toBottomOf="@+id/textView20" />
@@ -101,7 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Vata Individual"
+                    android:text="Diet"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="@+id/textView23"
                     app:layout_constraintTop_toBottomOf="@+id/textView23" />
@@ -111,7 +111,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="A vata individual is excited,alert and imaginative. They have dry skin and hair ,their light and thin bodies make them active and they suffer from irregularity in life,be it with food habits or daily routine. "
+                    android:text="Foods to Eath : warm, “moist”, and soft foods (e.g., berries, bananas, peaches, cooked vegetables, oats, brown rice, lean meat, eggs, dairy"
                     app:layout_constraintEnd_toEndOf="@+id/textView23"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/textView24"
@@ -122,7 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Pitta Individual"
+                    android:text="Avoid"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="@+id/textView25"
                     app:layout_constraintTop_toBottomOf="@+id/textView25" />
@@ -132,7 +132,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Pitta is governed by fire which makes this individual competitive in nature and a good leader. They have a strong appetite and good digestion. They have a medium frame and are prone to early greying of hair and baldness."
+                    android:text="bitter, dried, and cold foods (e.g., raw vegetables, cold desserts, dried fruit, nuts, seeds)"
                     app:layout_constraintEnd_toEndOf="@+id/textView25"
                     app:layout_constraintStart_toStartOf="@+id/textView26"
                     app:layout_constraintTop_toBottomOf="@+id/textView26" />
