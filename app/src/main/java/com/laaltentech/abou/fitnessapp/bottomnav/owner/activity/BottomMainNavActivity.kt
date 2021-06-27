@@ -1,5 +1,7 @@
 package com.laaltentech.abou.fitnessapp.bottomnav.owner.activity
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -36,6 +38,13 @@ class BottomMainNavActivity : AppCompatActivity(), HasSupportFragmentInjector {
                 R.id.navigation_home, R.id.navigation_meditate, R.id.navigation_profile
             )
         )
+
+        binding.contact.setOnClickListener {
+            val url = "https://api.whatsapp.com/send?phone=$+91 9044280425"
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse(url)
+            startActivity(i)
+        }
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
